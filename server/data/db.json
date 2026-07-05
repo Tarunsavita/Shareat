@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "id": "u-donor-1",
+      "name": "Asha Kumar",
+      "email": "donor@shareat.com",
+      "password": "$2a$10$0u5lYcf5e0icVOQk.ao1neS2r0d3eV5AukuT07GQn2T2efL7x6zqG",
+      "role": "donor",
+      "city": "Bengaluru",
+      "address": "House 12, Sector 15",
+      "verified": true
+    },
+    {
+      "id": "u-ngo-1",
+      "name": "Riya Sharma",
+      "email": "ngo@shareat.com",
+      "password": "$2a$10$0u5lYcf5e0icVOQk.ao1neS2r0d3eV5AukuT07GQn2T2efL7x6zqG",
+      "role": "ngo",
+      "organization": "Riya Foundation",
+      "city": "Bengaluru",
+      "address": "18, Mayur Vihar",
+      "verified": true
+    },
+    {
+      "id": "u-admin-1",
+      "name": "Meera Iyer",
+      "email": "admin@shareat.com",
+      "password": "$2a$10$0u5lYcf5e0icVOQk.ao1neS2r0d3eV5AukuT07GQn2T2efL7x6zqG",
+      "role": "admin",
+      "city": "Mumbai",
+      "address": "Admin Office, Bandra",
+      "verified": true
+    }
+  ],
+  "donations": [
+    {
+      "id": "d-1",
+      "donorId": "u-donor-1",
+      "donorName": "Asha Kumar",
+      "category": "Clothes",
+      "quantity": 3,
+      "address": "House 12, Sector 15",
+      "city": "Bengaluru",
+      "notes": "Winter jackets and children clothes",
+      "status": "Accepted",
+      "requestedAt": "2026-06-28",
+      "partnerName": "Riya Foundation"
+    },
+    {
+      "id": "d-2",
+      "donorId": "u-donor-1",
+      "donorName": "Asha Kumar",
+      "category": "Kitchenware",
+      "quantity": 5,
+      "address": "House 12, Sector 15",
+      "city": "Bengaluru",
+      "notes": "Mix of utensils and storage containers",
+      "status": "Requested",
+      "requestedAt": "2026-06-30",
+      "partnerName": null
+    },
+    {
+      "id": "d-3",
+      "donorId": "u-donor-1",
+      "donorName": "Asha Kumar",
+      "category": "Books",
+      "quantity": 8,
+      "address": "House 12, Sector 15",
+      "city": "Bengaluru",
+      "notes": "Story books and school reference books",
+      "status": "Collected",
+      "requestedAt": "2026-06-20",
+      "partnerName": "Riya Foundation"
+    }
+  ]
+}
